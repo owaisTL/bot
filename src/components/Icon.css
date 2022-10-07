@@ -1,0 +1,18 @@
+.Bot{
+  display:flex;
+align-items: flex-end;
+justify-content: space-between;
+}
+  
+.sendimg{
+  width:40px
+}
+
+.hd-hdr{
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+.hd-img{
+  width: 100px;
+}
