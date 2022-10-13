@@ -1,7 +1,7 @@
 // import ReactDOM from "react-dom/client";
 import { useState } from "react";
 import Basic from "./testcontents";
-import globerevolution from '../assets/globe-revolution.gif'
+import ChatBotIllustration from '../assets/ChatBotIllustration.svg'
 import './Icon.css';
 
 const Button = () => {
@@ -21,7 +21,7 @@ const Button = () => {
       <>
           <div className="hd-hdr">
               {/* <button id="talky"className={Icon ?"hd-btn":"hd-btn-inactive"} onClick={handleopen}>Talky</button> */}
-              <img classname='hd-img' style={{width:'100px',cursor:'pointer'}} src ={globerevolution}onClick={handleopen}></img>
+              <img classname='hd-img' style={{width:'100px',cursor:'pointer'}} src ={ChatBotIllustration}onClick={handleopen}></img>
           </div>
           {Icon ?
             //    <Contents /> : ''
