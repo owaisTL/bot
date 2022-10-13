@@ -156,10 +156,10 @@ function Basic() {
                                                 <div className='msgalignstart'>
                                                     {/* <BiBot className="botIcon" /> */}
                                                     <img src={logo2} className='rec-img'/>
-                                                    <h5 className="botmsg">
-                                                        <p>{user.rendermsg}</p>
+                                                    <div className="botmsg">
+                                                        <p style={{margin:'0'}}>{user.rendermsg}</p>
                                                         {user.bool &&  <a href={user.link} target="blank">Click!</a>}
-                                                        </h5>
+                                                        </div>
                                                 </div>
 
                                             )
